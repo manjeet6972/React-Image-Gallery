@@ -12,6 +12,7 @@ import Button from '@material-ui/core/Button';
 // import ImageGallery4 from './ImageGallery4'
 // import ImageGallery5 from './ImageGallery5'
 import ImageGalleryOnScroll from './ImageGalleryOnScroll';
+import Search from './Search';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -74,6 +75,7 @@ export default function ButtonAppBar() {
       {/* <ImageGallery3/> */}
       {/* <ImageGallery4 /> */}
       {/* <ImageGallery5 /> */}
+      <Search />
       <ImageGalleryOnScroll />
     </div>
   );

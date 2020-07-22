@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Measure from 'react-measure';
 import { Row, Col, Image, Container } from 'react-bootstrap';
-import './ImageGallery.css'
+import './assets/ImageGallery.css'
 
 
 const getNumberArray = (starting, amount) => {
