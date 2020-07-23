@@ -10,8 +10,8 @@ import Button from '@material-ui/core/Button';
 // import ImageGallery2 from './ImageGallery2'
 // import ImageGallery3 from './ImageGallery3'
 // import ImageGallery4 from './ImageGallery4'
-// import ImageGallery5 from './ImageGallery5'
-import ImageGalleryOnScroll from './ImageGalleryOnScroll';
+import ImageGallery5 from './ImageGallery5'
+// import ImageGalleryOnScroll from './ImageGalleryOnScroll';
 import Search from './Search';
 
 
@@ -74,9 +74,9 @@ export default function ButtonAppBar() {
       {/* <ImageGallery2 /> */}
       {/* <ImageGallery3/> */}
       {/* <ImageGallery4 /> */}
-      {/* <ImageGallery5 /> */}
+      <ImageGallery5 />
       <Search />
-      <ImageGalleryOnScroll />
+      {/* <ImageGalleryOnScroll /> */}
     </div>
   );
 }
